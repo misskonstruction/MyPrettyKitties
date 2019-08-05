@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import CardList from './CardList';
 import SearchBox from './SearchBox';
 import {kitties} from './kitties';
+import './App.css'
 
 class App extends Component {
 	constructor(){
@@ -22,7 +23,7 @@ onSearchChange = (event) => {
 	})
 		return(
 			<div className='tc'>
-				<h1>MyPrettyKitties</h1>
+				<h1 className='f1'>My Pretty Kitties</h1>
 				<SearchBox searchChange={this.onSearchChange}/>	
 				<CardList kitties = {filteredKitties}/>
 			</div>		
