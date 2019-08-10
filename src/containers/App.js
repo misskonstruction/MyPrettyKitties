@@ -19,9 +19,8 @@ onSearchChange = (event) => {
 }
 
 	render(){
-		const {kitties, searchfield} = this.state;
-		const filteredKitties = kitties.filter(kitties =>{
-			return kitties.name.toLowerCase().includes(searchfield.toLowerCase());
+		const filteredKitties = this.state.kitties.filter(kitties =>{
+			return kitties.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
 	})
 		return(
 			<div className='tc'>
