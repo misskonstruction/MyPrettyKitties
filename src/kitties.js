@@ -57,7 +57,7 @@ export const kitties = [
 	id: 10,
 	name: 'Evelyn',
 	username: 'Evelyn',
-	email: 'sassycat@hottie.com'
+	email: 'sassyfuckcat@hottie.com'
 }
 
 ]

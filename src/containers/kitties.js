@@ -9,19 +9,19 @@ export const kitties = [
 	id: 2,
 	name: 'Cosimo',
 	username: 'Cosimo',
-	email: 'soulstealingbitchcat@ibrokeurhearthaha.com'
+	email: 'soulstealingbitchcat@italiansausage.com'
 },
 {
 	id: 3,
 	name: 'Nick',
 	username: 'Nick',
-	email: 'timebombcat@waitforit.com'
+	email: 'tickingtimebombcat@waitforit.com'
 },
 {
 	id: 4,
 	name: 'Cami',
-	username: 'MissK',
-	email: 'misskonstructedcat@fuckuall.com'
+	username: 'misskonstructedcat',
+	email: 'misskonstructedcat@fuckuallsohard.com'
 },
 {
 	id: 5,
