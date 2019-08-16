@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
+import ErrorBoundary from '../components/ErrorBoundary';
 import {kitties} from './kitties';
 import './App.css'
 
@@ -28,7 +29,9 @@ onSearchChange = (event) => {
 				<h1 className='f1'>My Pretty Kitties</h1>
 				<SearchBox searchChange={this.onSearchChange}/>	
 				<Scroll>
-					<CardList kitties = {filteredKitties}/>
+					<ErrorBoundary>
+					 <CardList kitties = {filteredKitties}/>
+					</ErrorBoundary>
 				</Scroll>
 				
 			</div>		
