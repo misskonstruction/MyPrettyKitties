@@ -3,7 +3,7 @@ export const kitties = [
 	id: 1,
 	name: 'Kevin',
 	username: 'Kevin',
-	email: 'anxietycat@fuckitall.com'
+	email: 'anxietycat@phuckitall.com'
 },
 {
 	id: 2,
@@ -21,7 +21,7 @@ export const kitties = [
 	id: 4,
 	name: 'Cami',
 	username: 'misskonstructedcat',
-	email: 'misskonstructedcat@fuckuallsohard.com'
+	email: 'misskonstructedcat@goaway.com'
 },
 {
 	id: 5,
